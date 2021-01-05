@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3342D425861178001211FF /* HouseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3342D325861178001211FF /* HouseItem.swift */; };
+		FE3342D62586462B001211FF /* HouseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3342D52586462B001211FF /* HouseListCell.swift */; };
+		FE3342D82586570E001211FF /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3342D72586570E001211FF /* HouseDetailViewController.swift */; };
+		FE3342DA2586636F001211FF /* HouseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3342D92586636F001211FF /* HouseStore.swift */; };
 		FEF35AE025860E5B00E5BD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF35ADF25860E5B00E5BD01 /* AppDelegate.swift */; };
 		FEF35AE225860E5B00E5BD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF35AE125860E5B00E5BD01 /* SceneDelegate.swift */; };
-		FEF35AE425860E5B00E5BD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF35AE325860E5B00E5BD01 /* ViewController.swift */; };
+		FEF35AE425860E5B00E5BD01 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF35AE325860E5B00E5BD01 /* HouseViewController.swift */; };
 		FEF35AE725860E5B00E5BD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF35AE525860E5B00E5BD01 /* Main.storyboard */; };
 		FEF35AE925860E5E00E5BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF35AE825860E5E00E5BD01 /* Assets.xcassets */; };
 		FEF35AEC25860E5E00E5BD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF35AEA25860E5E00E5BD01 /* LaunchScreen.storyboard */; };
@@ -35,10 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE3342D325861178001211FF /* HouseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItem.swift; sourceTree = "<group>"; };
+		FE3342D52586462B001211FF /* HouseListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListCell.swift; sourceTree = "<group>"; };
+		FE3342D72586570E001211FF /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		FE3342D92586636F001211FF /* HouseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseStore.swift; sourceTree = "<group>"; };
+		FE3342DB258EE5AA001211FF /* HouseViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController2.swift; sourceTree = "<group>"; };
+		FE3342DC258EE5AA001211FF /* HouseDetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController2.swift; sourceTree = "<group>"; };
 		FEF35ADC25860E5B00E5BD01 /* MvcExplain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvcExplain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF35ADF25860E5B00E5BD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF35AE125860E5B00E5BD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEF35AE325860E5B00E5BD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEF35AE325860E5B00E5BD01 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		FEF35AE625860E5B00E5BD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEF35AE825860E5E00E5BD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEF35AEB25860E5E00E5BD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +86,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE3342CF25861139001211FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE3342DC258EE5AA001211FF /* HouseDetailViewController2.swift */,
+				FE3342DB258EE5AA001211FF /* HouseViewController2.swift */,
+				FEF35AE325860E5B00E5BD01 /* HouseViewController.swift */,
+				FE3342D72586570E001211FF /* HouseDetailViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FE3342D025861147001211FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE3342D52586462B001211FF /* HouseListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE3342D22586115C001211FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE3342D325861178001211FF /* HouseItem.swift */,
+				FE3342D92586636F001211FF /* HouseStore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FEF35AD325860E5A00E5BD01 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +137,11 @@
 		FEF35ADE25860E5B00E5BD01 /* MvcExplain */ = {
 			isa = PBXGroup;
 			children = (
+				FE3342D22586115C001211FF /* Model */,
+				FE3342D025861147001211FF /* View */,
+				FE3342CF25861139001211FF /* ViewController */,
 				FEF35ADF25860E5B00E5BD01 /* AppDelegate.swift */,
 				FEF35AE125860E5B00E5BD01 /* SceneDelegate.swift */,
-				FEF35AE325860E5B00E5BD01 /* ViewController.swift */,
 				FEF35AE525860E5B00E5BD01 /* Main.storyboard */,
 				FEF35AE825860E5E00E5BD01 /* Assets.xcassets */,
 				FEF35AEA25860E5E00E5BD01 /* LaunchScreen.storyboard */,
@@ -259,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF35AE425860E5B00E5BD01 /* ViewController.swift in Sources */,
+				FEF35AE425860E5B00E5BD01 /* HouseViewController.swift in Sources */,
+				FE3342D425861178001211FF /* HouseItem.swift in Sources */,
+				FE3342D62586462B001211FF /* HouseListCell.swift in Sources */,
 				FEF35AE025860E5B00E5BD01 /* AppDelegate.swift in Sources */,
+				FE3342DA2586636F001211FF /* HouseStore.swift in Sources */,
+				FE3342D82586570E001211FF /* HouseDetailViewController.swift in Sources */,
 				FEF35AE225860E5B00E5BD01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
